@@ -10,7 +10,6 @@ import ListItem from "@material-ui/core/ListItem";
 import Tooltip from "@material-ui/core/Tooltip";
 
 // @material-ui/icons
-import { Apps, CloudDownload, Group } from "@material-ui/icons";
 
 // React icons
 import { FaTwitter, FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
@@ -33,9 +32,8 @@ function HeaderLinks({ ...props }) {
             className: classes.navLink,
             color: "transparent"
           }}
-          buttonIcon={Group}
           dropdownList={[
-            <Link to="/" className={classes.dropdownLink}>
+            <Link to="/Magic" className={classes.dropdownLink}>
               Magical wellbeing
             </Link>,
             <Link to="/" className={classes.dropdownLink}>
@@ -56,12 +54,11 @@ function HeaderLinks({ ...props }) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://www.creative-tim.com/product/material-kit-react"
+          href="/profile-page"
           color="transparent"
-          target="_blank"
           className={classes.navLink}
         >
-          <CloudDownload className={classes.icons} /> Download
+           CV
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
