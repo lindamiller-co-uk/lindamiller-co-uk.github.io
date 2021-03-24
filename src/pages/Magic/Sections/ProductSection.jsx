@@ -3,13 +3,11 @@ import React from "react";
 import withStyles from "@material-ui/core/styles/withStyles";
 
 // @material-ui/icons
-import Chat from "@material-ui/icons/Chat";
-import VerifiedUser from "@material-ui/icons/VerifiedUser";
-import Fingerprint from "@material-ui/icons/Fingerprint";
+
 // core components
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
-import InfoArea from "components/InfoArea/InfoArea.jsx";
+import Quote from "components/Typography/Quote.jsx";
 
 import productStyle from "assets/jss/material-kit-react/views/landingPageSections/productStyle.jsx";
 
@@ -20,47 +18,36 @@ class ProductSection extends React.Component {
       <div className={classes.section}>
         <GridContainer justify="center">
           <GridItem xs={12} sm={12} md={8}>
-            <h2 className={classes.title}>Let's talk product</h2>
             <h5 className={classes.description}>
-              This is the paragraph where you can write more details about your
-              product. Keep you user engaged by providing meaningful
-              information. Remember that by this time, the user is curious,
-              otherwise he wouldn't scroll to get here. Add a button if you want
-              the user to see more.
+              All GPs are familiar with the "magical thinking" that people do in terms of their health and wellbeing.
+              The covid19 pandemic has illustrated the magical thinking around practitioner health and wellbeing; 
+              doctors are equally vulnerable to infection, or more so considering the higher viral loads to which we are exposed. 
+              Both practitioners and patients are guilty of believing in professional mystique, the perception that healthcare 
+              practitioners are "super heroes", infallible and invulnerable. 
+            </h5>
+            <h5 className={classes.description}>
+              This workshop will consider the use of magic in social prescribing for example supporting the confidence 
+              and manual dexterity of young people with cerebral palsy.
+            </h5>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={8}>
+              <div className={classes.typo}>
+                <Quote
+                  text="For children, motor disorders such as hemiplegia and other forms of paralysis can be physically and socially debilitating. Breathe Magic offers rehabilitation through magic."
+                />
+              </div>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={8}>
+            <h5 className={classes.description}>
+              Magic can be used to remind us of the importance of the positive emotions of wonder and awe 
+              for resilience and wellbeing. 
+              Magician Tracy Wise writer, speaker, storytelling magician, edutainer, mystorian, will introduce the magic 
+              as a means to manage stress, anxiety and social isolation. She will also introduce how magic workshops 
+              might benefit those with cognitive decline/dysfunction.
+              Be inspired to learn some simple magic tricks and indulge in some magical thinking.
             </h5>
           </GridItem>
         </GridContainer>
-        <div>
-          <GridContainer>
-            <GridItem xs={12} sm={12} md={4}>
-              <InfoArea
-                title="Free Chat"
-                description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-                icon={Chat}
-                iconColor="info"
-                vertical
-              />
-            </GridItem>
-            <GridItem xs={12} sm={12} md={4}>
-              <InfoArea
-                title="Verified Users"
-                description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-                icon={VerifiedUser}
-                iconColor="success"
-                vertical
-              />
-            </GridItem>
-            <GridItem xs={12} sm={12} md={4}>
-              <InfoArea
-                title="Fingerprint"
-                description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-                icon={Fingerprint}
-                iconColor="danger"
-                vertical
-              />
-            </GridItem>
-          </GridContainer>
-        </div>
       </div>
     );
   }
