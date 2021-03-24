@@ -10,6 +10,7 @@ import Components from "./Components/Components.jsx";
 import LandingPage from "./LandingPage/LandingPage.jsx";
 import ProfilePage from "./ProfilePage/ProfilePage.jsx";
 import Magic from "./Magic/Magic.jsx";
+import GraphicMedicine from "./GraphicMedicine/GraphicMedicine.jsx";
 
 let hist = createMemoryHistory();
 
@@ -20,6 +21,7 @@ export default () => (
       <Route path="/profile-page" component={ProfilePage} />
       <Route path="/" component={LandingPage} />
       <Route path="/magic" component={Magic} />
+      <Route path="/GraphicMedicine" component={GraphicMedicine} />
     </Switch>
   </Router>
 );

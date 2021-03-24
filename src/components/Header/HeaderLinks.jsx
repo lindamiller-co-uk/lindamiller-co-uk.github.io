@@ -36,19 +36,12 @@ function HeaderLinks({ ...props }) {
             <Link to="/Magic" className={classes.dropdownLink}>
               Magical wellbeing
             </Link>,
-            <Link to="/" className={classes.dropdownLink}>
+            <Link to="/GraphicMedicine" className={classes.dropdownLink}>
               Graphic medicine "Sparkling moments"
             </Link>,
-            <Link to="/" className={classes.dropdownLink}>
-              SET wellbeing: Milagros
+            <Link to="/Milagros" className={classes.dropdownLink}>
+              Milagros creative workshops
             </Link>,
-            <a
-              href="https://creativetimofficial.github.io/material-kit-react/#/documentation"
-              target="_blank"
-              className={classes.dropdownLink}
-            >
-              Documentation
-            </a>
           ]}
         />
       </ListItem>
