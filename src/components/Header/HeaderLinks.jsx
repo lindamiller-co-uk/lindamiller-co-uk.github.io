@@ -33,14 +33,29 @@ function HeaderLinks({ ...props }) {
             color: "transparent"
           }}
           dropdownList={[
+            <Link to="/GraphicMedicine" className={classes.dropdownLink}>
+            Cartooning "Sparkling moments"
+            </Link>,
             <Link to="/Magic" className={classes.dropdownLink}>
               Magical wellbeing
             </Link>,
-            <Link to="/GraphicMedicine" className={classes.dropdownLink}>
-              Graphic medicine "Sparkling moments"
-            </Link>,
             <Link to="/Milagros" className={classes.dropdownLink}>
               Milagros creative workshops
+            </Link>,
+            <Link to="/Comedy" className={classes.dropdownLink}>
+            Comedy
+            </Link>,
+            <Link to="/Poetry" className={classes.dropdownLink}>
+            Poetry
+            </Link>,
+            <Link to="/SharedReading" className={classes.dropdownLink}>
+            Shared reading and creative writing
+            </Link>,
+            <Link to="/Music" className={classes.dropdownLink}>
+            Music
+            </Link>,
+            <Link to="/BodyWork" className={classes.dropdownLink}>
+            Body Work
             </Link>,
           ]}
         />
@@ -51,7 +66,25 @@ function HeaderLinks({ ...props }) {
           color="transparent"
           className={classes.navLink}
         >
-           CV
+           Coaching
+        </Button>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Button
+          href="/profile-page"
+          color="transparent"
+          className={classes.navLink}
+        >
+           Coach supervision
+        </Button>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Button
+          href="/profile-page"
+          color="transparent"
+          className={classes.navLink}
+        >
+           Medical educator
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
