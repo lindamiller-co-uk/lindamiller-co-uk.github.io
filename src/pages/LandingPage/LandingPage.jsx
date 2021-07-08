@@ -22,8 +22,6 @@ import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.js
 
 // Sections for this page
 import ProductSection from "./Sections/ProductSection.jsx";
-import TeamSection from "./Sections/TeamSection.jsx";
-import WorkSection from "./Sections/WorkSection.jsx";
 
 const dashboardRoutes = [];
 
@@ -48,12 +46,9 @@ class LandingPage extends React.Component {
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
-                <h1 className={classes.title}>Your Story Starts With Us.</h1>
+                <h1 className={classes.title}>introduction text</h1>
                 <h4>
-                  Every landing page needs a small description after the big
-                  bold title, that's why we added this text here. Add here all
-                  the information that can make you or your product create the
-                  first impression.
+                  Introduction text
                 </h4>
                 <br />
                 <Button
@@ -64,7 +59,7 @@ class LandingPage extends React.Component {
                   rel="noopener noreferrer"
                 >
                   <FaPlay/>
-                  Watch video
+                  Button to something
                 </Button>
               </GridItem>
             </GridContainer>
@@ -73,8 +68,6 @@ class LandingPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <ProductSection />
-            <TeamSection />
-            <WorkSection />
           </div>
         </div>
         <Footer />

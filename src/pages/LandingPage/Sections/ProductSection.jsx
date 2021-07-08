@@ -20,13 +20,9 @@ class ProductSection extends React.Component {
       <div className={classes.section}>
         <GridContainer justify="center">
           <GridItem xs={12} sm={12} md={8}>
-            <h2 className={classes.title}>Let's talk product</h2>
+            <h2 className={classes.title}>text</h2>
             <h5 className={classes.description}>
-              This is the paragraph where you can write more details about your
-              product. Keep you user engaged by providing meaningful
-              information. Remember that by this time, the user is curious,
-              otherwise he wouldn't scroll to get here. Add a button if you want
-              the user to see more.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam gravida augue nisl, in tincidunt purus condimentum sed. Vestibulum gravida rhoncus nibh id maximus. Vestibulum sed suscipit massa. Phasellus sapien turpis, varius ut feugiat in, blandit in orci. Proin orci lacus, maximus at bibendum sed, vulputate et metus.
             </h5>
           </GridItem>
         </GridContainer>
@@ -34,8 +30,8 @@ class ProductSection extends React.Component {
           <GridContainer>
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
-                title="Free Chat"
-                description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+                title="Thing 1"
+                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam gravida augue nisl, in tincidunt purus condimentum sed."
                 icon={Chat}
                 iconColor="info"
                 vertical
@@ -43,8 +39,8 @@ class ProductSection extends React.Component {
             </GridItem>
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
-                title="Verified Users"
-                description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+                title="Thing 2"
+                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam gravida augue nisl, in tincidunt purus condimentum sed."
                 icon={VerifiedUser}
                 iconColor="success"
                 vertical
@@ -52,8 +48,8 @@ class ProductSection extends React.Component {
             </GridItem>
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
-                title="Fingerprint"
-                description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+                title="Thing 3"
+                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam gravida augue nisl, in tincidunt purus condimentum sed."
                 icon={Fingerprint}
                 iconColor="danger"
                 vertical
