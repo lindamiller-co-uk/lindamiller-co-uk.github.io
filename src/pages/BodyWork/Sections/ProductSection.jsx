@@ -31,7 +31,7 @@ class ProductSection extends React.Component {
             <div className={classes.typo}>
                 <div className={classes.note}> </div>
                 <Info>
-                This workshop on movement for wellbeing can also contribute to Continued Professional Development and reflective practice for appraisal as we think about social prescribing of modement and performance activities can help patients. There will be cake.
+                This workshop on movement for wellbeing can also contribute to Continued Professional Development and reflective practice for appraisal as we think about how the social prescribing of movement and performance activities can help patients. There will be cake.
                 </Info>
             </div>
             <h4 className={classes.title}>
