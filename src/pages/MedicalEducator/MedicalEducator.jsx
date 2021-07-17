@@ -54,7 +54,7 @@ class ProfilePage extends React.Component {
                     </div>
                     <div className={classes.name}>
                       <h3 className={classes.title}>Linda Miller</h3>
-                      <h6>Medical Educator</h6>
+                      <h6 className={classes.description}>Medical Educator</h6>
                       <Button justIcon link className={classes.margin5} href="https://www.linkedin.com/in/linda-miller-3a512510b/">
                         <FaLinkedin/>
                       </Button>
@@ -63,10 +63,10 @@ class ProfilePage extends React.Component {
                 </GridItem>
               </GridContainer>
               <div className={classes.description}>
-                <p>
+                <p className={classes.description}>
                  Linda's portfolio as an undergraduate medical educator includes teaching Communication Skills, Clinical Decision Making, Ethics, First Clinical Attachment and Problem Based Learning. She supervises GP trainees and Foundation Doctors. 
                 </p>
-                <p>
+                <p className={classes.description}>
                  In postgraduate education, Linda teaches on the Introduction to Supervision Learning and Assessment Course (ISLA) in clinical supervision. She teaches on a range of postgraduate CPD sessions and served as GP Tutor for North Central London.
                 </p>
               </div>

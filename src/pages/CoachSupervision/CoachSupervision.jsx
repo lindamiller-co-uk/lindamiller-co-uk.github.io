@@ -56,31 +56,31 @@ class ProfilePage extends React.Component {
                     </div>
                     <div className={classes.name}>
                       <h3 className={classes.title}>Linda Miller</h3>
-                      <h6>Coach Supervisor</h6>
+                      <h6 className={classes.description}>Coach Supervisor</h6>
                       <Button justIcon link className={classes.margin5} href="https://www.linkedin.com/in/linda-miller-3a512510b/">
                         <FaLinkedin/>
                       </Button>
                     </div>
                   </div>
                   <div className={classes.description}>
-                <h4>
+                <h4 className={classes.description}>
                   About coach supervision
                 </h4>
-                <p>
+                <p className={classes.description}>
                   Linda offers individual and group supervision sessions for coaches and mentors.
                 </p>
-                <p>
+                <p className={classes.description}>
                 Supervision sessions can be conducted virtually to suit time zones. Post pandemic, Linda suggests central London venues, with green space sessions an option.
                 </p>
               </div>
               <div className={classes.description}>
-                <h4>
+                <h4 className={classes.description}>
                   Coach supervision qualifications
                 </h4>
-                <p>
+                <p className={classes.description}>
                   Linda has been awarded the Coaching Supervision Academy Diploma.
                 </p>
-                <h4>
+                <h4 className={classes.description}>
                   Testimonials
                 </h4>
                 <div className={classes.typo}>

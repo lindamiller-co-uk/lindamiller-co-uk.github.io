@@ -55,47 +55,47 @@ class ProfilePage extends React.Component {
                     </div>
                     <div className={classes.name}>
                       <h3 className={classes.title}>Linda Miller</h3>
-                      <h6>Coach</h6>
+                      <h6 className={classes.description}>Coach</h6>
                       <Button justIcon link className={classes.margin5} href="https://www.linkedin.com/in/linda-miller-3a512510b/">
                         <FaLinkedin/>
                       </Button>
                     </div>
                   </div>
               <div className={classes.description}>
-                <h4>
+                <h4 className={classes.description}>
                   Who is coaching for?
                 </h4>
-                <p>
+                <p className={classes.description}>
                   Linda offers executive coaching and leadership mentoring for leaders in Health care, Education, Finance, Law and the creative sector.
                 </p>
-                <p>
+                <p className={classes.description}>
                   Linda's coaching can help an individual develop their career direction and plan, and better understand the organisation in which they work and how to get things done.</p>
-                  <p>
+                  <p className={classes.description}>
                   Individuals are supported to manage transitions, review their strengths and weaknesses and develop self development plans. Many develop their leadership skills.</p>
-                  <p>
+                  <p className={classes.description}>
                   Linda provides a safe environment to explore issues such as work-life balance and clarify issues, outcomes and goals.
                 </p>
               </div>
               <div className={classes.description}>
-                <h4>
+                <h4 className={classes.description}>
                   What kinds of coaching does Linda offer?
                 </h4>
-                <p>
+                <p className={classes.description}>
                   Linda uses a variety of coaching methods and approaches based on the strengths and values of the individual. 
                 </p>
-                <p>
+                <p className={classes.description}>
                   She is particularly experienced in coaching for change management, leadership development, transitions and optimising work life balance.
                 </p>
-                <p>
+                <p className={classes.description}>
                   Coaching can be conducted virtually to suit time zones. Post pandemic, Linda suggests central London venues, with green space coaching an option.
                 </p>
-                <h4>
+                <h4 className={classes.description}>
                   Coaching qualifications
                 </h4>
-                <p>
+                <p className={classes.description}>
                   Linda is Institute of Leadership and Management and Management Futures qualified. She is also a European Mentoring and Coaching Council member.
                 </p>
-                <h4>
+                <h4 className={classes.description}>
                   Testimonials
                 </h4>
                 <div className={classes.typo}>
