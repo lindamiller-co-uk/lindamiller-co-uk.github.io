@@ -92,6 +92,13 @@ class ProductSection extends React.Component {
                 />
               </div>
           </GridItem>
+          <GridItem xs={12} sm={12} md={8}>
+          <div className={classes.typo}>
+                <div className={classes.note}> </div>
+                <Info>
+                Previously run nationally and internationally for multi-professional audiences including ICPH Boston 2016, WONCA Istanbul 2015, EAPH Paris 2017,  HEE trainee wellbeing conference 2020 (a group of over 60 trainees).  Delivered annually for trainee paediatricians "Survive and Thrive day", groups of up to 80.                </Info>
+                </div>
+          </GridItem>
         </GridContainer>
       </div>
     );
