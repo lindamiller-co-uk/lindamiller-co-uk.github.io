@@ -49,7 +49,7 @@ function HeaderLinks({ ...props }) {
             Poetry
             </Link>,
             <Link to="/SharedReading" className={classes.dropdownLink}>
-            Shared reading and creative writing
+            Shared reading and  writing
             </Link>,
             <Link to="/Music" className={classes.dropdownLink}>
             Music
@@ -62,7 +62,7 @@ function HeaderLinks({ ...props }) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="/profile-page"
+          href="/Coaching"
           color="transparent"
           className={classes.navLink}
         >
@@ -71,7 +71,7 @@ function HeaderLinks({ ...props }) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="/profile-page"
+          href="/CoachSupervision"
           color="transparent"
           className={classes.navLink}
         >
@@ -80,7 +80,7 @@ function HeaderLinks({ ...props }) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="/profile-page"
+          href="/MedicalEducator"
           color="transparent"
           className={classes.navLink}
         >

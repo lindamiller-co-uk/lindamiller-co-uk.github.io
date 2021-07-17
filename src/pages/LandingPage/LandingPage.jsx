@@ -46,21 +46,9 @@ class LandingPage extends React.Component {
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
-                <h1 className={classes.title}>introduction text</h1>
-                <h4>
-                  Introduction text
-                </h4>
-                <br />
-                <Button
-                  color="danger"
-                  size="lg"
-                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaPlay/>
-                  Button to something
-                </Button>
+                <h2 className={classes.title}>
+                  Linda Miller is a coach, GP and workshop facilitator based in London.
+                </h2>
               </GridItem>
             </GridContainer>
           </div>

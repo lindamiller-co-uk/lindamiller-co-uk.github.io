@@ -8,7 +8,7 @@ import Camera from "@material-ui/icons/Camera";
 import Palette from "@material-ui/icons/Palette";
 import Favorite from "@material-ui/icons/Favorite";
 // React icons
-import { FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa';
+import { FaTwitter, FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 // core components
 import Header from "components/Header/Header.jsx";
 import Footer from "components/Footer/Footer.jsx";
@@ -68,15 +68,9 @@ class ProfilePage extends React.Component {
                     </div>
                     <div className={classes.name}>
                       <h3 className={classes.title}>Linda Miller</h3>
-                      <h6>Coach Supervisor</h6>
-                      <Button justIcon link className={classes.margin5}>
-                        <FaTwitter/>
-                      </Button>
-                      <Button justIcon link className={classes.margin5}>
-                        <FaInstagram/>
-                      </Button>
-                      <Button justIcon link className={classes.margin5}>
-                        <FaFacebook/>
+                      <h6>Coach</h6>
+                      <Button justIcon link className={classes.margin5} href="https://www.linkedin.com/in/linda-miller-3a512510b/">
+                        <FaLinkedin/>
                       </Button>
                     </div>
                   </div>
