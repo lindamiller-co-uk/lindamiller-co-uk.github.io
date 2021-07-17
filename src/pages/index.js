@@ -10,7 +10,7 @@ import Components from "./Components/Components.jsx";
 import LandingPage from "./LandingPage/LandingPage.jsx";
 import ProfilePage from "./ProfilePage/ProfilePage.jsx";
 import Magic from "./Magic/Magic.jsx";
-import GraphicMedicine from "./GraphicMedicine/GraphicMedicine.jsx";
+import Cartooning from "./Cartooning/Cartooning.jsx";
 import Milagros from "./Milagros/Milagros.jsx";
 import Comedy from "./Comedy/Comedy.jsx";
 import Music from "./Music/Music.jsx";
@@ -27,7 +27,7 @@ export default () => (
       <Route path="/profile-page" component={ProfilePage} />
       <Route path="/" component={LandingPage} />
       <Route path="/magic" component={Magic} />
-      <Route path="/GraphicMedicine" component={GraphicMedicine} />
+      <Route path="/Cartooning" component={Cartooning} />
       <Route path="/Milagros" component={Milagros} />
       <Route path="/Comedy" component={Comedy} />
       <Route path="/Music" component={Music} />
