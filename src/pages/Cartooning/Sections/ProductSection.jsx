@@ -7,6 +7,9 @@ import withStyles from "@material-ui/core/styles/withStyles";
 // core components
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
+import Info from "components/Typography/Info.jsx";
+import Quote from "components/Typography/Quote.jsx";
+
 
 import productStyle from "assets/jss/material-kit-react/views/landingPageSections/productStyle.jsx";
 
@@ -17,12 +20,77 @@ class ProductSection extends React.Component {
       <div className={classes.section}>
         <GridContainer justify="center">
           <GridItem xs={12} sm={12} md={8}>
+            <h4 className={classes.title}>
+            This workshop uses cartooning, reflective practice, and appreciative Inquiry (AI) to reflect on “Sparkling Moments” for health care practitioners (HCPs) wellbeing and peer support. It has evolved over a 5-year period. 
+            </h4>
             <h5 className={classes.description}>
-            Examples of graphic novels by clinicians and patients will be used to introduce the metaphorical 
-            potential of graphic narratives for reflection. The participants will be actively involved throughout 
-            the session (though no artistic ability is required). Graphic novels  will be used to demonstrate 
-            use of colour, symbol, repetition and structure in this rich narrative genre.
+            Drawing on 11 years’ experience coaching health care practitioners, this prosocial, narrative session encourages peer reflection on positive events. Where the reflective practice demanded by UK healthcare governance focuses on negatives (significant events, complaints, and errors), this workshop reconnects with core values and motivation.
             </h5>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={8}>
+              <div className={classes.typo}>
+                <Quote
+                  text="One previous participant refers to her positive zine as a talisman which reminds her what she loves about being a GP" 
+                />
+              </div>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={8}>
+            <h5 className={classes.description}>
+            Zines are a self-made and published mini magazine originating from 1930s science fiction fan fiction. In the 1970s zines developed as underground communication in Punk and feminist subcultures. Contemporary zines often relate to individual examples of physical and mental health pathography. We will review some sample zines before creating our own related to practitioner wellbeing and healthcare. 
+            </h5>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={8}>
+            <h5 className={classes.title}>
+            No artistic ability required!
+            </h5>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={8}>
+          <div className={classes.typo}>
+                <div className={classes.note}> </div>
+                <Info>
+                This session will count for CPD for your appraisal as it consists of reflective practice, supports resilience, and relates to social prescribing.
+                </Info>
+                </div>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={8}>
+            <h4 className={classes.title}>
+              Previous participants enjoyed:            
+            </h4>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={8}>
+              <div className={classes.typo}>
+                <Quote
+                  text="Ability to paint a picture with words – brought it to life. Made me feel humbled and grateful. Connect with others"
+                />
+              </div>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={8}>
+              <div className={classes.typo}>
+                <Quote
+                  text="Thanks – introduction to new ideas and books. Host was lovely and warm, connected with others."
+                />
+              </div>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={8}>
+              <div className={classes.typo}>
+                <Quote
+                  text="I really really liked that the session was focused around gratitude and appreciation. It’s a really nice idea to frame it with a positive backdrop so that everybody is in the right frame of mind. More generally, making zines is always a joy!"
+                />
+              </div>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={8}>
+              <div className={classes.typo}>
+                <Quote
+                  text="We have been used to reflective professional practice in the appraisal process. It was interesting and helpful to reflect on one’s wellbeing in a positive way."
+                />
+              </div>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={8}>
+              <div className={classes.typo}>
+                <Quote
+                  text="A lot of attention has been focused on what lockdown has taken away from us and the challenges of working for the NHS, it was nice to reclaim that narrative and think of the positives."
+                />
+              </div>
           </GridItem>
         </GridContainer>
       </div>

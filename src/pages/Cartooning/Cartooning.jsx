@@ -40,13 +40,13 @@ class LandingPage extends React.Component {
           }}
           {...rest}
         />
-        <Parallax filter image={require("assets/img/landing-bg.jpg")}>
+        <Parallax filter image={require("assets/img/ComicsOverlay.png")}>
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
-                <h1 className={classes.title}>Graphic Medicine "Sparkling Moments"</h1>
-                <h4>
-                The objective of this interactive workshop is to introduce "Graphic Medicine" as a "hands-on" tool to reflect on the joy in clinical practice. 
+                <h1 className={classes.title}>Cartooning workshops: "Sparkling Moments" </h1>
+                <h4 className={classes.title}>
+                Cartooning as a hands-on tool to reflect on the joy in clinical practice
                 </h4>
                 <br />
               </GridItem>
