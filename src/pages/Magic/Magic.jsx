@@ -47,7 +47,7 @@ class LandingPage extends React.Component {
               <GridItem xs={12} sm={12} md={6}>
                 <h1 className={classes.title}>Magical thinking and wellbeing workshops</h1>
                 <h4 className={classes.title}>
-                  In partnership woth Tracey Wise
+                  In partnership with Tracey Wise
                 </h4>
               </GridItem>
             </GridContainer>
