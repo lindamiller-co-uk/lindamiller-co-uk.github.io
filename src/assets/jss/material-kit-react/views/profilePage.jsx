@@ -3,9 +3,8 @@ import { container, title } from "assets/jss/material-kit-react.jsx";
 import imagesStyle from "assets/jss/material-kit-react/imagesStyles.jsx";
 
 const profilePageStyle = {
-  container: 
-  {
-    paddingBottom: "50px",
+  container: {
+    paddingBottom: "40px",
   },
   profile: {
     textAlign: "center",
