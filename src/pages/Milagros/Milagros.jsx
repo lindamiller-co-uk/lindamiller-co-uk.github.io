@@ -40,15 +40,14 @@ class LandingPage extends React.Component {
           }}
           {...rest}
         />
-        <Parallax filter image={require("assets/img/landing-bg.jpg")}>
+        <Parallax filter image={require("assets/img/Milagros.jpg")}>
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
-                <h1 className={classes.title}>Milagros Creative workshops</h1>
-                <h4>
-                In this session we will create Milagros and use the creative process as a prompt for reflection regarding our patients and our own experiences.  
+                <h1 className={classes.title}>Milagros workshops: a prompt for reflection</h1>
+                <h4 className={classes.title}>
+                Create Milagros and use the creative process as a prompt for reflection regarding our patients and our own experiences.
                 </h4>
-                <br />
               </GridItem>
             </GridContainer>
           </div>

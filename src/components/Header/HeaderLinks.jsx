@@ -40,7 +40,7 @@ function HeaderLinks({ ...props }) {
               Magical thinking
             </Link>,
             <Link to="/Milagros" className={classes.dropdownLink}>
-              Milagros creative workshops
+              Milagros
             </Link>,
             <Link to="/Comedy" className={classes.dropdownLink}>
             Comedy
