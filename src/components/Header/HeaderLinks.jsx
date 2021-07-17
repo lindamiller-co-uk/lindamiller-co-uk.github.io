@@ -37,7 +37,7 @@ function HeaderLinks({ ...props }) {
             Cartooning "Sparkling moments"
             </Link>,
             <Link to="/Magic" className={classes.dropdownLink}>
-              Magical wellbeing
+              Magical thinking
             </Link>,
             <Link to="/Milagros" className={classes.dropdownLink}>
               Milagros creative workshops

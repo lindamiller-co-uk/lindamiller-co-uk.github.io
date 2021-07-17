@@ -47,9 +47,7 @@ class TeamSection extends React.Component {
                 <CardBody>
                   <p className={classes.description}>
                     Magician, writer, speaker, storytelling magician, edutainer, 
-                    mystorian, will introduce the magic as a means to manage stress, anxiety 
-                    and social isolation. She will also introduce the how magic workshops might 
-                    benefit those with cognitive decline/dysfunction.
+                    mystorian.
                   </p>
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>

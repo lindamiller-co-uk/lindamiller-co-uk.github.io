@@ -46,11 +46,9 @@ class LandingPage extends React.Component {
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
                 <h1 className={classes.title}>Magical thinking and wellbeing workshops</h1>
-                <h4>
-                Learn how to create instant rapport with your younger patients! Learn some magic tricks. 
-                Hear about the psychology of magic and how it is being incorporated into medical education and practice and wellbeing.
+                <h4 className={classes.title}>
+                  In partnership woth Tracey Wise
                 </h4>
-                <br />
               </GridItem>
             </GridContainer>
           </div>
