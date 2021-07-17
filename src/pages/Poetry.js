@@ -1,9 +1,9 @@
 import React from "react";
-import Milagros from "./Milagros/Milagros";
+import Poetry from "./Poetry/Poetry";
 
 import 'typeface-roboto';
 import 'typeface-roboto-slab';
 
 export default () => (
-  <Milagros/>
+  <Poetry/>
 );

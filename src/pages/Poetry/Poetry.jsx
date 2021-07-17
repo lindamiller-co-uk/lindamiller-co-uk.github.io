@@ -20,7 +20,6 @@ import landingPageStyle from "assets/jss/material-kit-react/views/landingPage.js
 
 // Sections for this page
 import ProductSection from "./Sections/ProductSection.jsx";
-import TeamSection from "./Sections/TeamSection.jsx";
 
 const dashboardRoutes = [];
 
@@ -41,13 +40,13 @@ class LandingPage extends React.Component {
           }}
           {...rest}
         />
-        <Parallax filter image={require("assets/img/landing-bg.jpg")}>
+        <Parallax filter image={require("assets/img/Poetry.jpg")}>
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
-                <h1 className={classes.title}>Poetry text</h1>
-                <h4>
-                Poetry text
+                <h1 className={classes.title}>Poetry for reflection workshops</h1>
+                <h4 className={classes.title}>
+                Shared reading and writing of poetry provides opportunity for narrative-based reflection
                 </h4>
                 <br />
               </GridItem>
@@ -57,7 +56,6 @@ class LandingPage extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <ProductSection />
-            <TeamSection />
           </div>
         </div>
         <Footer />

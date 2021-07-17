@@ -40,13 +40,13 @@ class LandingPage extends React.Component {
           }}
           {...rest}
         />
-        <Parallax filter image={require("assets/img/landing-bg.jpg")}>
+        <Parallax filter image={require("assets/img/Poetry.jpg")}>
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
-                <h1 className={classes.title}>Shared reading text</h1>
-                <h4>
-                Shared reading text
+                <h1 className={classes.title}>Shared reading & writing workshops</h1>
+                <h4 className={classes.title}>
+                Using narratives and stories for practitioner reflection
                 </h4>
                 <br />
               </GridItem>
