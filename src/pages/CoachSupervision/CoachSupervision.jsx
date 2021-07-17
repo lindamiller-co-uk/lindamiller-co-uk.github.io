@@ -4,11 +4,9 @@ import classNames from "classnames";
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
-import Camera from "@material-ui/icons/Camera";
-import Palette from "@material-ui/icons/Palette";
-import Favorite from "@material-ui/icons/Favorite";
+
 // React icons
-import { FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
 // core components
 import Header from "components/Header/Header.jsx";
 import Footer from "components/Footer/Footer.jsx";
@@ -16,21 +14,11 @@ import Button from "components/CustomButtons/Button.jsx";
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
-import NavPills from "components/NavPills/NavPills.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
+import Quote from "components/Typography/Quote.jsx";
 
-import profile from "assets/img/faces/christian.jpg";
 
-import studio1 from "assets/img/examples/studio-1.jpg";
-import studio2 from "assets/img/examples/studio-2.jpg";
-import studio3 from "assets/img/examples/studio-3.jpg";
-import studio4 from "assets/img/examples/studio-4.jpg";
-import studio5 from "assets/img/examples/studio-5.jpg";
-import work1 from "assets/img/examples/olu-eletu.jpg";
-import work2 from "assets/img/examples/clem-onojeghuo.jpg";
-import work3 from "assets/img/examples/cynthia-del-rio.jpg";
-import work4 from "assets/img/examples/mariya-georgieva.jpg";
-import work5 from "assets/img/examples/clem-onojegaw.jpg";
+import profile from "assets/img/faces/Linda-03.png";
 
 import profilePageStyle from "assets/jss/material-kit-react/views/profilePage.jsx";
 
@@ -69,143 +57,66 @@ class ProfilePage extends React.Component {
                     <div className={classes.name}>
                       <h3 className={classes.title}>Linda Miller</h3>
                       <h6>Coach Supervisor</h6>
-                      <Button justIcon link className={classes.margin5}>
-                        <FaTwitter/>
-                      </Button>
-                      <Button justIcon link className={classes.margin5}>
-                        <FaInstagram/>
-                      </Button>
-                      <Button justIcon link className={classes.margin5}>
-                        <FaFacebook/>
+                      <Button justIcon link className={classes.margin5} href="https://www.linkedin.com/in/linda-miller-3a512510b/">
+                        <FaLinkedin/>
                       </Button>
                     </div>
                   </div>
-                </GridItem>
-              </GridContainer>
-              <div className={classes.description}>
+                  <div className={classes.description}>
+                <h4>
+                  About coach supervision
+                </h4>
                 <p>
-                  An artist of considerable range, Chet Faker — the name taken
-                  by Melbourne-raised, Brooklyn-based Nick Murphy — writes,
-                  performs and records all of his own music, giving it a warm,
-                  intimate feel with a solid groove structure.{" "}
+                  Linda offers individual and group supervision sessions for coaches and mentors.
+                </p>
+                <p>
+                Supervision sessions can be conducted virtually to suit time zones. Post pandemic, Linda suggests central London venues, with green space sessions an option.
                 </p>
               </div>
-              <GridContainer justify="center">
-                <GridItem xs={12} sm={12} md={8} className={classes.navWrapper}>
-                  <NavPills
-                    alignCenter
-                    color="primary"
-                    tabs={[
-                      {
-                        tabButton: "Studio",
-                        tabIcon: Camera,
-                        tabContent: (
-                          <GridContainer justify="center">
-                            <GridItem xs={12} sm={12} md={4}>
-                              <img
-                                alt="..."
-                                src={studio1}
-                                className={navImageClasses}
-                              />
-                              <img
-                                alt="..."
-                                src={studio2}
-                                className={navImageClasses}
-                              />
-                            </GridItem>
-                            <GridItem xs={12} sm={12} md={4}>
-                              <img
-                                alt="..."
-                                src={studio5}
-                                className={navImageClasses}
-                              />
-                              <img
-                                alt="..."
-                                src={studio4}
-                                className={navImageClasses}
-                              />
-                            </GridItem>
-                          </GridContainer>
-                        )
-                      },
-                      {
-                        tabButton: "Work",
-                        tabIcon: Palette,
-                        tabContent: (
-                          <GridContainer justify="center">
-                            <GridItem xs={12} sm={12} md={4}>
-                              <img
-                                alt="..."
-                                src={work1}
-                                className={navImageClasses}
-                              />
-                              <img
-                                alt="..."
-                                src={work2}
-                                className={navImageClasses}
-                              />
-                              <img
-                                alt="..."
-                                src={work3}
-                                className={navImageClasses}
-                              />
-                            </GridItem>
-                            <GridItem xs={12} sm={12} md={4}>
-                              <img
-                                alt="..."
-                                src={work4}
-                                className={navImageClasses}
-                              />
-                              <img
-                                alt="..."
-                                src={work5}
-                                className={navImageClasses}
-                              />
-                            </GridItem>
-                          </GridContainer>
-                        )
-                      },
-                      {
-                        tabButton: "Favorite",
-                        tabIcon: Favorite,
-                        tabContent: (
-                          <GridContainer justify="center">
-                            <GridItem xs={12} sm={12} md={4}>
-                              <img
-                                alt="..."
-                                src={work4}
-                                className={navImageClasses}
-                              />
-                              <img
-                                alt="..."
-                                src={studio3}
-                                className={navImageClasses}
-                              />
-                            </GridItem>
-                            <GridItem xs={12} sm={12} md={4}>
-                              <img
-                                alt="..."
-                                src={work2}
-                                className={navImageClasses}
-                              />
-                              <img
-                                alt="..."
-                                src={work1}
-                                className={navImageClasses}
-                              />
-                              <img
-                                alt="..."
-                                src={studio1}
-                                className={navImageClasses}
-                              />
-                            </GridItem>
-                          </GridContainer>
-                        )
-                      }
-                    ]}
-                  />
+              <div className={classes.description}>
+                <h4>
+                  Coach supervision qualifications
+                </h4>
+                <p>
+                  Linda has been awarded the Coaching Supervision Academy Diploma.
+                </p>
+                <h4>
+                  Testimonials
+                </h4>
+                <div className={classes.typo}>
+                <Quote
+                  text="Highly useful – energising, inspirational. Something I feel I would like to return to in the future. Perhaps should be considered much more routine in everyone’s life? Like visiting a spa or “massage” for the mind and spirit."
+                  author="Core medical specialty trainee"
+                />
+                </div>
+                <div className={classes.typo}>
+                <Quote
+                  text="Very helpful. And enjoyable!"
+                  author="Senior academic"
+                />
+                </div>
+                <div className={classes.typo}>
+                <Quote
+                  text="Uses tools that help the individual and ensures that the experience is good… I recommend coaching to my colleagues and trainees."
+                  author="Senior educationalist"
+                />
+                </div>
+                <div className={classes.typo}>
+                <Quote
+                  text="Helped make vague /abstract ideas more concrete and specific… Insightful, Good listener, challenges mentee appropriately."
+                  author="Consultant anaesthetist"
+                />
+                </div>
+                <div className={classes.typo}>
+                <Quote
+                  text="A nice way to spend some time, thinking and planning about what you want and what is important to you."
+                  author="Junior Doctor (F2)"
+                />
+                </div>
+              </div>
                 </GridItem>
               </GridContainer>
+            
             </div>
           </div>
         </div>

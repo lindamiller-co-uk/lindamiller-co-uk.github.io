@@ -10,7 +10,7 @@ const typographyStyle = {
   defaultFontStyle: {
     ...defaultFont,
     fontSize: "14px",
-    color: "#777"
+    color: "#353535"
   },
   defaultHeaderMargins: {
     marginTop: "20px",
@@ -20,12 +20,12 @@ const typographyStyle = {
     padding: "10px 20px",
     margin: "0 0 20px",
     fontSize: "17.5px",
-    borderLeft: "5px solid #eee"
+    borderLeft: "5px solid #cecece"
   },
   quoteText: {
     margin: "0 0 10px",
     fontStyle: "italic",
-    color: "#777"
+    color: "#353535"
   },
   quoteAuthor: {
     display: "block",
@@ -34,13 +34,13 @@ const typographyStyle = {
     color: "#777"
   },
   mutedText: {
-    color: "#777"
+    color: "#353535"
   },
   primaryText: {
     color: primaryColor
   },
   infoText: {
-    color: "#777", 
+    color: "#353535", 
     fontStyle: "italic"
   },
   successText: {
@@ -56,7 +56,7 @@ const typographyStyle = {
     fontSize: "65%",
     fontWeight: "400",
     lineHeight: "1",
-    color: "#777"
+    color: "#353535"
   }
 };
 
