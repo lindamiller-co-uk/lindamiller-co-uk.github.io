@@ -40,13 +40,13 @@ class LandingPage extends React.Component {
           }}
           {...rest}
         />
-        <Parallax filter image={require("assets/img/landing-bg.jpg")}>
+        <Parallax filter image={require("assets/img/LaughPicture.jpg")}>
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
-                <h1 className={classes.title}>Comedy</h1>
-                <h4>
-                Comedy stuff here 
+                <h1 className={classes.title}>Comedy workshops: "A Bit of Light Relief"</h1>
+                <h4 className={classes.title}>
+                Stand-up comedy games for wellbeing and social prescribing 
                 </h4>
                 <br />
               </GridItem>

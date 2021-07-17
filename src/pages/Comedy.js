@@ -1,9 +1,9 @@
 import React from "react";
-import SharedReading from "./SharedReading/SharedReading";
+import Comedy from "./Comedy/Comedy";
 
 import 'typeface-roboto';
 import 'typeface-roboto-slab';
 
 export default () => (
-  <SharedReading/>
+  <Comedy/>
 );

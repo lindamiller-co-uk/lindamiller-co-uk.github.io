@@ -7,7 +7,7 @@ import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
 
 // React icons
-import {FaLinkedin } from 'react-icons/fa';
+import {FaExternalLinkAlt } from 'react-icons/fa';
 
 // core components
 import GridContainer from "components/Grid/GridContainer.jsx";
@@ -19,7 +19,7 @@ import CardFooter from "components/Card/CardFooter.jsx";
 
 import teamStyle from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.jsx";
 
-import tracy from "assets/img/faces/tracy.jpeg";
+import talibah from "assets/img/faces/Talibah.png";
 
 class TeamSection extends React.Component {
   render() {
@@ -31,33 +31,33 @@ class TeamSection extends React.Component {
     );
     return (
       <div className={classes.section}>
-        <h2 className={classes.title}>Also in the facilitation team</h2>
+        <h4 className={classes.title}>Also in the facilitation team</h4>
         <div>
           <GridContainer>
             <GridItem xs={12} sm={12} md={4}>
               <Card plain>
                 <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                  <img src={tracy} alt="..." className={imageClasses} />
+                  <img src={talibah} alt="..." className={imageClasses} />
                 </GridItem>
                 <h4 className={classes.cardTitle}>
-                  Tracy Wise
+                  Talibah Rivers
                   <br />
-                  <small className={classes.smallTitle}>Magician</small>
+                  <small className={classes.smallTitle}>Tuneless Choir leader</small>
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
-                  Music text 
+                  Vocalist rooted in Jazz/Latin and swing.
                   </p>
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>
                   <Button
                     justIcon
-                    href="https://www.linkedin.com/in/tracy-wise-40843810/"
+                    href="https://www.talibahriversmusic.com/"
                     target="_blank"
                     color="transparent"
                     className={classes.margin5}
                   >
-                    <FaLinkedin/>
+                    <FaExternalLinkAlt/>
                   </Button>
                 </CardFooter>
               </Card>

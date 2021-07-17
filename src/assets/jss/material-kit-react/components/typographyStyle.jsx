@@ -1,7 +1,6 @@
 import {
   defaultFont,
   primaryColor,
-  infoColor,
   successColor,
   warningColor,
   dangerColor
@@ -10,7 +9,8 @@ import {
 const typographyStyle = {
   defaultFontStyle: {
     ...defaultFont,
-    fontSize: "14px"
+    fontSize: "14px",
+    color: "#777"
   },
   defaultHeaderMargins: {
     marginTop: "20px",
@@ -24,7 +24,8 @@ const typographyStyle = {
   },
   quoteText: {
     margin: "0 0 10px",
-    fontStyle: "italic"
+    fontStyle: "italic",
+    color: "#777"
   },
   quoteAuthor: {
     display: "block",
@@ -39,7 +40,8 @@ const typographyStyle = {
     color: primaryColor
   },
   infoText: {
-    color: infoColor
+    color: "#777", 
+    fontStyle: "italic"
   },
   successText: {
     color: successColor

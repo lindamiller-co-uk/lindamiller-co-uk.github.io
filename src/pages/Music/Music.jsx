@@ -41,13 +41,13 @@ class LandingPage extends React.Component {
           }}
           {...rest}
         />
-        <Parallax filter image={require("assets/img/landing-bg.jpg")}>
+        <Parallax filter image={require("assets/img/Records.jpg")}>
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
-                <h1 className={classes.title}>Music text </h1>
-                <h4>
-                Music text 
+                <h1 className={classes.title}>Music workshops with the Tuneless Choir</h1>
+                <h4 className={classes.title}>
+                Social prescribing music and singing with Talibah Rivers Graham of the Vauxhall Tuneless Choir. 
                 </h4>
                 <br />
               </GridItem>
