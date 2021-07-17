@@ -41,13 +41,13 @@ class LandingPage extends React.Component {
           }}
           {...rest}
         />
-        <Parallax filter image={require("assets/img/landing-bg.jpg")}>
+        <Parallax filter image={require("assets/img/BodyWork.jpg")}>
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
-                <h1 className={classes.title}>Body work text</h1>
-                <h4>
-                Body work text
+                <h1 className={classes.title}>Body work and wellbeing workshops</h1>
+                <h4 className={classes.title}>
+                In partnership with Charlie Blowers of Moving Pieces
                 </h4>
                 <br />
               </GridItem>

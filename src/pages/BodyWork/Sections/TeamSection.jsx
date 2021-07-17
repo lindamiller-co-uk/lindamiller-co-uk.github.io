@@ -19,7 +19,7 @@ import CardFooter from "components/Card/CardFooter.jsx";
 
 import teamStyle from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.jsx";
 
-import tracy from "assets/img/faces/tracy.jpeg";
+import charlie from "assets/img/faces/Charlie.png";
 
 class TeamSection extends React.Component {
   render() {
@@ -31,31 +31,28 @@ class TeamSection extends React.Component {
     );
     return (
       <div className={classes.section}>
-        <h2 className={classes.title}>Also in the facilitation team</h2>
+        <h4 className={classes.title}>Also in the facilitation team</h4>
         <div>
           <GridContainer>
             <GridItem xs={12} sm={12} md={4}>
               <Card plain>
                 <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                  <img src={tracy} alt="..." className={imageClasses} />
+                  <img src={charlie} alt="..." className={imageClasses} />
                 </GridItem>
                 <h4 className={classes.cardTitle}>
-                  Tracy Wise
+                  Charlie Blower
                   <br />
-                  <small className={classes.smallTitle}>Magician</small>
+                  <small className={classes.smallTitle}>Facilitator</small>
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
-                    Magician, writer, speaker, storytelling magician, edutainer, 
-                    mystorian, will introduce the magic as a means to manage stress, anxiety 
-                    and social isolation. She will also introduce the how magic workshops might 
-                    benefit those with cognitive decline/dysfunction.
+                  Charlie is a UKCP reg psychotherapist and clinical supervisor, specialising in body-based approaches to managing stress, anxiety and traumatic experience.
                   </p>
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>
                   <Button
                     justIcon
-                    href="https://www.linkedin.com/in/tracy-wise-40843810/"
+                    href="https://www.linkedin.com/in/charlie-blowers-03655912/"
                     target="_blank"
                     color="transparent"
                     className={classes.margin5}
