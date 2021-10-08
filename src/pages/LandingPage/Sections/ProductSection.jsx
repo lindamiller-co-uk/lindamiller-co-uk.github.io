@@ -22,7 +22,7 @@ class ProductSection extends React.Component {
         <GridContainer justify="left">
           <GridItem xs={12} sm={12} md={10}>
             <h3 className={classes.title}>
-              As a practicing GP of over 20 years, Linda is a passionate advocate for health care practioner wellbeing. She offers workshops, coaching, and education with a unique angle on the arts in health.
+              As a practicing GP of over 25 years, Linda is a passionate advocate for health care practioner wellbeing. She offers workshops, coaching, and education with a unique angle on the arts in health.
             </h3>
           </GridItem>
         </GridContainer>

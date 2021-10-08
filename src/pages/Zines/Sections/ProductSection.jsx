@@ -21,7 +21,7 @@ class ProductSection extends React.Component {
         <GridContainer justify="center">
           <GridItem xs={12} sm={12} md={8}>
             <h4 className={classes.title}>
-            Drawing on 11 years’ experience coaching health care practitioners, this prosocial, narrative session encourages peer reflection on positive events. Where the reflective practice demanded by UK healthcare governance focuses on negatives (significant events, complaints, and errors), this workshop reconnects with core values and motivation. 
+            Drawing on 13 years’ experience coaching health care practitioners, this prosocial, narrative session encourages peer reflection on positive events. Where the reflective practice demanded by UK healthcare governance focuses on negatives (significant events, complaints, and errors), this workshop reconnects with core values and motivation. 
             </h4>
           </GridItem>
           <GridItem xs={12} sm={12} md={8}>
