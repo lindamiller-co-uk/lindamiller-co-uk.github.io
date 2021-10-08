@@ -38,6 +38,7 @@ class ProductSection extends React.Component {
               />
               <Button color="info" size="sm" href="/Milagros">Milagros</Button>
               <Button color="info" size="sm" href="/Cartooning">Cartooning</Button>
+              <Button color="info" size="sm" href="/Zines">Zines</Button>
               <Button color="info" size="sm" href="/Magic">Magic</Button>
               <Button color="info" size="sm" href="/Comedy">Comedy</Button>
               <Button color="info" size="sm" href="/Poetry">Poetry</Button>

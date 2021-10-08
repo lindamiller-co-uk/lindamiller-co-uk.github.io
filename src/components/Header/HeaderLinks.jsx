@@ -36,6 +36,9 @@ function HeaderLinks({ ...props }) {
             <Link to="/Cartooning" className={classes.dropdownLink}>
             Cartooning "Sparkling moments"
             </Link>,
+            <Link to="/Zines" className={classes.dropdownLink}>
+            Zine-making
+            </Link>,
             <Link to="/Magic" className={classes.dropdownLink}>
               Magical thinking
             </Link>,

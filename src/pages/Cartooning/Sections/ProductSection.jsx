@@ -21,27 +21,24 @@ class ProductSection extends React.Component {
         <GridContainer justify="center">
           <GridItem xs={12} sm={12} md={8}>
             <h4 className={classes.title}>
-            This workshop uses cartooning, reflective practice, and appreciative Inquiry (AI) to reflect on “Sparkling Moments” for health care practitioners (HCPs) wellbeing and peer support. It has evolved over a 5-year period. 
+            This interactive workshop introduces “Graphic Medicine” as a “hands-on” tool to reflect on the joy in clinical practice. Examples of graphic novels by clinicians and patients will be used to introduce the metaphorical potential of graphic narratives. 
+            </h4>
+            <h4 className={classes.title}>
+            Participants will be actively involved throughout the session, (though no artistic ability is required.). Graphic novels will be used to demonstrate use of colour, symbol, repetition and structure in this rich narrative genre.
             </h4>
             <h5 className={classes.description}>
-            Drawing on 11 years’ experience coaching health care practitioners, this prosocial, narrative session encourages peer reflection on positive events. Where the reflective practice demanded by UK healthcare governance focuses on negatives (significant events, complaints, and errors), this workshop reconnects with core values and motivation.
+            Demonstration will be used to model an “appreciative enquiry” response to a graphic depiction of a “sparkling moment” from practice. Participants are invited to experiment with techniques to reflect on a “sparkling moment” in a graphic form. Breakout group discussion will provide appreciative feedback. Participants experience the motivational impact of such reflection and benefit from peer appreciative responses.
             </h5>
-          </GridItem>
-          <GridItem xs={12} sm={12} md={8}>
-              <div className={classes.typo}>
-                <Quote
-                  text="One previous participant refers to her positive zine as a talisman which reminds her what she loves about being a GP" 
-                />
-              </div>
-          </GridItem>
-          <GridItem xs={12} sm={12} md={8}>
             <h5 className={classes.description}>
-            Zines are a self-made and published mini magazine originating from 1930s science fiction fan fiction. In the 1970s zines developed as underground communication in Punk and feminist subcultures. Contemporary zines often relate to individual examples of physical and mental health pathography. We will review some sample zines before creating our own related to practitioner wellbeing and healthcare. 
+            This original methodology has developed from a “sparkling moment” reflective, supervision workshop and study of narrative medicine particularly graphic form. Previous workshops with trainees, coaches, nurses and GP and trainers have demonstrated that participants found the play- like experience liberating and enabled participants to reconnect with the core value of their work.
+            </h5>
+            <h5 className={classes.description}>
+            Feeling valued and appreciated is motivating, enhances self-compassion and resilience. The method crosses language barriers and appeals to an International audience and is relevant to a variety of disciplines and allied health professionals.
             </h5>
           </GridItem>
           <GridItem xs={12} sm={12} md={8}>
             <h5 className={classes.title}>
-            No artistic ability required!
+            This workshop is focussed on salutogenesis enhancing mental health and well-being by reflecting on positive experiences and appreciation.
             </h5>
           </GridItem>
           <GridItem xs={12} sm={12} md={8}>
@@ -60,7 +57,7 @@ class ProductSection extends React.Component {
           <GridItem xs={12} sm={12} md={8}>
               <div className={classes.typo}>
                 <Quote
-                  text="Ability to paint a picture with words – brought it to life. Made me feel humbled and grateful. Connect with others"
+                  text="A lot of attention has been focused on what lockdown has taken away from us and the challenges of working for the NHS, it was nice to reclaim that narrative and think of the positives."
                 />
               </div>
           </GridItem>
@@ -74,13 +71,6 @@ class ProductSection extends React.Component {
           <GridItem xs={12} sm={12} md={8}>
               <div className={classes.typo}>
                 <Quote
-                  text="I really really liked that the session was focused around gratitude and appreciation. It’s a really nice idea to frame it with a positive backdrop so that everybody is in the right frame of mind. More generally, making zines is always a joy!"
-                />
-              </div>
-          </GridItem>
-          <GridItem xs={12} sm={12} md={8}>
-              <div className={classes.typo}>
-                <Quote
                   text="We have been used to reflective professional practice in the appraisal process. It was interesting and helpful to reflect on one’s wellbeing in a positive way."
                 />
               </div>
@@ -88,16 +78,16 @@ class ProductSection extends React.Component {
           <GridItem xs={12} sm={12} md={8}>
               <div className={classes.typo}>
                 <Quote
-                  text="A lot of attention has been focused on what lockdown has taken away from us and the challenges of working for the NHS, it was nice to reclaim that narrative and think of the positives."
+                  text="Ability to paint a picture with words – brought it to life. Made me feel humbled and grateful. Connect with others"
                 />
               </div>
           </GridItem>
           <GridItem xs={12} sm={12} md={8}>
-          <div className={classes.typo}>
-                <div className={classes.note}> </div>
-                <Info>
-                Previously run nationally and internationally for multi-professional audiences including ICPH Boston 2016, WONCA Istanbul 2015, EAPH Paris 2017,  HEE trainee wellbeing conference 2020 (a group of over 60 trainees).  Delivered annually for trainee paediatricians "Survive and Thrive day", groups of up to 80.                </Info>
-                </div>
+              <div className={classes.typo}>
+                <Quote
+                  text="Really different, joyful and invigorating session."
+                />
+              </div>
           </GridItem>
         </GridContainer>
       </div>
