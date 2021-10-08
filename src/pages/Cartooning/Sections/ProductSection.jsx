@@ -33,7 +33,7 @@ class ProductSection extends React.Component {
             This original methodology has developed from a “sparkling moment” reflective, supervision workshop and study of narrative medicine particularly graphic form. Previous workshops with trainees, coaches, nurses and GP and trainers have demonstrated that participants found the play- like experience liberating and enabled participants to reconnect with the core value of their work.
             </h5>
             <h5 className={classes.description}>
-            Feeling valued and appreciated is motivating, enhances self-compassion and resilience. The method crosses language barriers and appeals to an International audience and is relevant to a variety of disciplines and allied health professionals.
+            Feeling valued and appreciated is motivating, enhances self-compassion and resilience. The method crosses language barriers and appeals to an international audience and is relevant to a variety of disciplines and allied health professionals.
             </h5>
           </GridItem>
           <GridItem xs={12} sm={12} md={8}>
