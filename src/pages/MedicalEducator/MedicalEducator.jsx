@@ -16,7 +16,7 @@ import GridItem from "components/Grid/GridItem.jsx";
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 
-import profile from "assets/img/faces/Linda-04.png";
+import profile from "assets/img/faces/Educator.jpeg";
 
 import profilePageStyle from "assets/jss/material-kit-react/views/profilePage.jsx";
 

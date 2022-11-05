@@ -18,7 +18,7 @@ import Parallax from "components/Parallax/Parallax.jsx";
 import Quote from "components/Typography/Quote.jsx";
 
 
-import profile from "assets/img/faces/Linda-03.png";
+import profile from "assets/img/faces/Supervisor.jpeg";
 
 import profilePageStyle from "assets/jss/material-kit-react/views/profilePage.jsx";
 

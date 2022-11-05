@@ -17,7 +17,7 @@ import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 import Quote from "components/Typography/Quote.jsx";
 
-import profile from "assets/img/faces/Linda-02.png";
+import profile from "assets/img/faces/Coach.jpeg";
 
 import profilePageStyle from "assets/jss/material-kit-react/views/profilePage.jsx";
 
